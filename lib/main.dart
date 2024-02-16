@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.blueGrey),
       home: Scaffold(
-        body: Container(
+        body: Align(
+
 
           child: Row(
             children: [
@@ -24,37 +25,45 @@ class MyApp extends StatelessWidget {
                     Expanded(flex: 4, child:
 
                     Container(
+                      alignment: Alignment.center,
+                      child: Text('11', style: TextStyle(fontSize: 36),),
                       width: 400,
                       height: 450,
                       color: Colors.blue,
-                      margin: EdgeInsets.only(bottom: 8, right: 8, top: 8),
+                      margin: EdgeInsets.only(bottom: 8, right: 8, top: 8, left: 8),
 
                     )),
                     Expanded(flex: 1, child:
 
                     Container(
+                      alignment: Alignment.center,
+                      child: Text('12', style: TextStyle(fontSize: 36),),
                       width: 400,
                       height: 450,
                       color: Colors.deepOrange,
-                        margin: EdgeInsets.only(bottom: 8, right: 8),
+                        margin: EdgeInsets.only(bottom: 8, right: 8, left: 8),
 
                     )),
                     Expanded(flex: 1, child:
 
                     Container(
+                      alignment: Alignment.center,
+                      child: Text('13', style: TextStyle(fontSize: 36),),
                       width: 400,
                       height: 450,
                       color: Colors.black45,
-                        margin: EdgeInsets.only(bottom: 8, right: 8),
+                        margin: EdgeInsets.only(bottom: 8, right: 8, left: 8),
 
                     )),
                     Expanded(flex: 4, child:
 
                     Container(
+                      alignment: Alignment.center,
+                      child: Text('14', style: TextStyle(fontSize: 36),),
                       width: 400,
                       height: 450,
                       color: Colors.brown,
-                        margin: EdgeInsets.only(bottom: 8, right: 8),
+                        margin: EdgeInsets.only(bottom: 8, right: 8, left: 8),
 
                     ),),],),),
                   Expanded(
@@ -64,37 +73,45 @@ class MyApp extends StatelessWidget {
                           Expanded(flex: 4, child:
 
                             Container(
+                              alignment: Alignment.center,
+                              child: Text('21', style: TextStyle(fontSize: 36),),
                           width: 400,
                           height: 450,
                           color: Colors.amberAccent,
-                          margin: EdgeInsets.only(bottom: 8, top: 8),
+                          margin: EdgeInsets.only(bottom: 8, top: 8, right: 8),
 
                         )),
                         Expanded(flex: 1, child:
 
                          Container(
+                           alignment: Alignment.center,
+                           child: Text('22', style: TextStyle(fontSize: 36),),
                           width: 400,
                           height: 450,
                           color: Colors.cyan,
-                          margin: EdgeInsets.only(bottom: 8),
+                          margin: EdgeInsets.only(bottom: 8, right: 8),
 
                         )),
                         Expanded(flex: 1, child:
 
                           Container(
+                            alignment: Alignment.center,
+                            child: Text('23', style: TextStyle(fontSize: 36),),
                           width: 400,
                           height: 450,
                           color: Colors.blueGrey,
-                          margin: EdgeInsets.only(bottom: 8),
+                          margin: EdgeInsets.only(bottom: 8, right: 8),
 
                         )),
                         Expanded(flex: 4, child:
 
                           Container(
+                            alignment: Alignment.center,
+                            child: Text('24', style: TextStyle(fontSize: 36),),
                           width: 400,
                           height: 450,
                           color: Colors.indigo,
-                          margin: EdgeInsets.only(bottom: 8),
+                          margin: EdgeInsets.only(bottom: 8, right: 8),
                       ),),],)
 
 
