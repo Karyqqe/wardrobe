@@ -1,16 +1,9 @@
-# study2
+# Практическая работа
 
-A new Flutter project.
+Практическая работа
 
-## Getting Started
+## Скрин приложения
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/Karyqqe/wardrobe/assets/133410772/0baa0ddb-8fa6-402b-9061-cc0102b98cc4)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/Karyqqe/wardrobe/assets/133410772/280ae326-8db4-483e-b0e5-7ab48209fdeb)
